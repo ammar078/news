@@ -1,0 +1,77 @@
+@import "./variables";
+body{
+  a{
+    color: #000;
+  }
+}
+
+
+.article-header {
+  margin-top: 100px;
+  .header{
+    &-category {
+      font-size: 20px;
+    }
+    &-content{
+      margin: 20px 0px;
+    }
+  }
+  
+}
+.article-main{
+  .col-md-8{
+      .article-subtitle{
+          margin:10px 0px 30px;       
+      }
+      .datetime{
+          position: relative;
+          background: $gray-color;
+          width: 100%;
+        padding: 10px;
+        font-size: 18px;
+        margin-bottom: 40px;
+        time{
+          margin-right: 10px;
+          &::before{
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 10px;
+            background-color: $main-color;
+            right: 0px;
+            top: 0px;
+          }
+        }
+      }
+  }
+  .article{
+    &-body{
+      article{
+        p{
+          font-size: 20px;
+        }
+        .keyword{
+          background: $gray-color;
+          font-size: 18px;
+          padding: 8px 18px;
+          border-radius: 5px;
+        }
+      }
+      .stories{
+        margin-bottom: 30px;
+        .story-card{
+          &-img{
+            width:25%;
+            img{
+              max-height:130px ;
+            }
+          }
+          &-text{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">اخباري </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >الرئيسية</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#1">تقنية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#2">سياسة</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#3">رياضة</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#4">من الارشيف</a>
+              </li>
+            </ul>
+            <div class="login">
+              <i class="fa-solid fa-circle-user"></i>
+              <div class="login-button">
+                <a href="./login.html">تسجيل الدخول</a>
+              </div>
+            </div>
+            <div class="login-btn">
+              <a href="./login.html" class="button">تسجيل الدخول</a>
+            </div>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <a href="./search.html" class="search-icon"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="header-news">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="carousel-news">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    >
+                      1
+                    </button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    >
+                      2
+                    </button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    >
+                      3
+                    </button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a href="articles.html">
+                        <img
+                          src="images/Carousel/security.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-text">
+                          <h3>الامن الرقمي يواجه مخاطر الذكاء الاصطناعي</h3>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="articles.html">
+                        <img
+                          src="images/Carousel/sad.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-text">
+                          <h3>ارتفاع مؤشرات الكابة بشكل مثير للسخرية</h3>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="articles.html">
+                        <img
+                          src="images/Carousel/office.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-text">
+                          <h3>تعرف على ابرز مخاطر العمل المكتبي</h3>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="header-articales">
+                <a href="articale.html" class="articale-link">
+                  <div class="row">
+                    <div class="col-4">
+                      <img src="images/side articals/bitcoin.jpg" alt="" />
+                    </div>
+                    <div class="col-7">
+                      <div class="articale-text">
+                        <span class="articale-category">اقتصاد</span>
+                        <h5 class="articale-title">
+                          انخفاض شديد في اسعار العملات الرقمية
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="articale.html" class="articale-link">
+                  <div class="row">
+                    <div class="col-4">
+                      <img src="images/side articals/talk.jpg" alt="" />
+                    </div>
+                    <div class="col-7">
+                      <div class="articale-text">
+                        <span class="articale-category">علاقات</span>
+                        <h5 class="articale-title">
+                          زيادة معدل المشاكل الزوجية الناتجة من " زوجوه وهو
+                          يعقل"
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="articale.html" class="articale-link">
+                  <div class="row">
+                    <div class="col-4">
+                      <img src="images/side articals/numbers.jpg" alt="" />
+                    </div>
+                    <div class="col-7">
+                      <div class="articale-text">
+                        <span class="articale-category">عام</span>
+                        <h5 class="articale-title">
+                          ارتفاع مثير في معدل الوفياة لدى الرجال حول العالم
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <h4 class="footer-title">من نحن</h4>
+            <ul class="list-unstyled">
+              <li class="mt-3">
+                <a href="#" class="link-unstyled">من نحن</a>
+              </li>
+              <li class="mt-3">
+                <a href="#" class="link-unstyled">سياسة الخصوصية</a>
+              </li>
+              <li class="mt-3">
+                <a href="#" class="link-unstyled">الاحكام والشروط</a>
+              </li>
+              <li class="mt-3">
+                <a href="#" class="link-unstyled">عن المنصة</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <h4 class="footer-title">تواصل معنا</h4>
+            <ul class="list-unstyled">
+              <li class="mt-3">
+                <a href="#" class="link-unstyled"> تواصل معنا</a>
+              </li>
+              <li class="mt-3">
+                <a href="#" class="link-unstyled">اعلن معنا </a>
+              </li>
+              <li class="mt-3">
+                <a href="#" class="link-unstyled"> وظائف شاغرة</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <h4 class="footer-title">وسائل التواصل</h4>
+            <ul class="list-unstyled">
+              <li class="mt-3">
+                <i class="fa-solid fa-location-dot"></i> بغداد/ الحرية
+              </li>
+              <li class="mt-3">
+                <i class="fa-solid fa-phone"></i> 07852331347
+              </li>
+              <li class="mt-3">
+                <i class="fa-solid fa-envelope"></i>amar3333@gmail.com
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 logo-socialmedia">
+            <a href="#" class="logo">اخباري</a>
+            <div class="social-media">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-behance"></i></a>
+              <a href=""><i class="fa-brands fa-telegram"></i></a>
+            </div>
+            <div class="copyright">
+              جميع الحقوق محفوظة @ <span id="year"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
